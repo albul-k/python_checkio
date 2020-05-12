@@ -10,6 +10,10 @@ The idea for this mission was found on Python Tricks series by Dan Bader
 Precondition: all elements of the input list are hashable
 """
 
+# solution #1
+# def all_the_same(elements: List[Any]) -> bool:
+#     return len(set(elements)) == 1 or elements == []
+
 from typing import List, Any
 from itertools import combinations
 
